@@ -1,0 +1,68 @@
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 25px 50px;
+    color: #fff;
+    text-shadow: 2px 0px 2px #FF0000;
+    
+}
+.top_container{
+    background-color: #293462;
+    padding: 25px 25px;
+    border-radius: 25px;
+}
+.title img{
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    margin: 0 25px;
+}
+.title h1{
+    font-size: 4rem;
+}
+.playing_kyes{
+    padding: 75px 0;
+}
+.playing_kyes button{
+    font-size: 3rem;
+    width: 110px;
+    height: 110px;
+    margin:0 25px;
+    color: midnightblue;
+    border: 0.6rem solid darkgrey;
+    border-radius: 0.5rem;
+    text-shadow: 2px 2px 5px #FF0000;
+}
+.pressed{
+    box-shadow: 0px 0px 15px #FF0000;
+}
+.playing_kyes .w{
+    background-image: url(images/drum1.jpg);
+    background-size: cover;
+}
+.playing_kyes .a{
+    background-image: url(images/drum2.jpg);
+    background-size: cover;
+}
+.playing_kyes .s{
+    background-image: url(images/drum3.jpg);
+    background-size: cover;
+    
+}
+.playing_kyes .d{
+    background-image: url(images/drum4.png);
+    background-size: cover;
+}
+.playing_kyes .j{
+    background-image: url(images/drum5.jpg);
+    background-size: cover;
+}
+.playing_kyes .k{
+    background-image: url(images/drum6.jpg);
+    background-size: cover;
+}
+.playing_kyes .l{
+    background-image: url(images/drum7.jpg);
+    background-size: cover;
+}
